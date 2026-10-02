@@ -1,10 +1,12 @@
-本包是 Local AI Companion 0.1.12 的完整源碼。
+本包是 Local AI Companion 0.1.17 的 GUI 源碼。
 
-重建時請使用 BUILDING.md、BUILD_INFO.json、build/build-release.ps1 與
-build/Local-AI-Companion-0.1.12.spec。既有 Windows 11 介面、搜尋修補、模型設定、
-安裝流程及使用者資料位置均須保留。
+目前版本的使用流程見 UI_README.md，實際驗收範圍與限制見
+../docs/ACCEPTANCE_0.1.17.md。
 
-本次源碼修訂已移除 Awesome 搜尋接入、資料索引、專用安裝閘門及打包資源。
-請僅用現有 Windows 建置環境重新封裝，核對新 EXE 與源碼指紋。
-不要恢復 Awesome，不要擴展非本地 AI 功能，不要改 UI、模型服務或安裝機制。
-目前 BUILD_INFO 為 0.1.12 的正式建置身分；再次正式建置時由腳本產生新的 build_id。
+如需重建，使用 BUILDING.md、BUILD_INFO.json、build/build-release.ps1 與
+build/Local-AI-Companion-0.1.17.spec，並使用既有 Windows 建置環境。
+保留現有介面、搜尋、模型設定、安裝流程及使用者資料位置。
+
+目前 GUI Build ID：20261001T182710Z-030c49e0。
+BUILD_INFO.json 保存實際建置身分與來源指紋；再次建置時由腳本產生新身分，
+不可把新產生的 EXE 當作原發布成品。完整保留 EXE 與對應 _internal 目錄。
