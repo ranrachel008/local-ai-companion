@@ -1,13 +1,37 @@
 # Local AI Solution Scout
 
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-## 0.1.17 Windows prerelease
+Find software setups that already work, then research the instructions and review an installation plan.
 
-[Download GUI or MCP Agent](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta). Choose **Local-AI-Companion-0.1.17-Windows-onedir.zip** for the desktop workflow, or **Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip** for your existing MCP chat host. Extract the whole folder; keep `_internal`. Models are not bundled. Agent research/planning/chat persistence was verified with existing Strata/Qwen; other hosts/models remain unverified. The Agent exposes search, research, plan and job lookup; human installation approval/execution remains a separate GUI operation.
+## EXE, GUI and Agent
 
-[Agent quickstart](docs/AGENT_QUICKSTART.md) · [MCP example](docs/client-config.example.json) · [Acceptance and limits](docs/ACCEPTANCE_0.1.17.md) · [Exact Agent source](agent-source/) · [GUI source/provenance](gui-source/)
+1. **EXE:** The file you double-click to start the desktop app.
+2. **GUI:** The window that EXE opens, where you search, research and review installations. EXE and GUI come in the same package.
+3. **Agent:** The separate version you connect to your local AI chat software so it can call search, research, plan and job tools.
 
-## Historical 0.1.0-beta documentation
+## Download
+
+- **Use the app yourself:** [Download the desktop version (EXE / GUI)](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-0.1.17-Windows-onedir.zip). Extract the whole ZIP, keep `_internal`, then double-click the EXE.
+- **Let your local AI use it:** [Download the Agent version](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip), then follow the [connection guide](docs/AGENT_QUICKSTART.md). Extract the whole ZIP and keep `_internal`.
+
+The Agent creates research and plans; installation requires separate human review and approval. Models are supplied separately.
+
+Windows Beta · [Release page](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta)
+
+<details>
+<summary>Compatibility, source code and developer information</summary>
+
+Verified with the existing Strata/Qwen setup. Other models and chat hosts remain unverified; see the [acceptance record and limits](docs/ACCEPTANCE_0.1.17.md).
+
+[MCP configuration example](docs/client-config.example.json) · [Agent source](agent-source/) · [GUI source and provenance](gui-source/) · [Release checklist](docs/PRE_RELEASE_0.1.17.md)
+
+Source ZIPs, the source manifest and SHA-256 checksums are available on the release page for development and verification.
+
+</details>
+
+<details>
+<summary>Historical 0.1.0-beta documentation</summary>
 
 > **Compatibility notice — v0.1.0-beta (2026-09-30)**
 >
@@ -70,3 +94,5 @@ Currently focused on:
 ## Philosophy
 
 **Don't reinvent the setup. Find a working one and copy what works.**
+
+</details>
