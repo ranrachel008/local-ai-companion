@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "local-ai-companion": {
+      "command": "C:\\replace-with-your-agent-folder\\Local-AI-Companion-Agent-0.1.17-agent.1.exe",
+      "args": [
+        "--workspace",
+        "C:\\replace-with-a-dedicated-agent-workspace",
+        "--read-jobs-root",
+        "C:\\replace-with-existing-read-only-jobs"
+      ]
+    }
+  }
+}

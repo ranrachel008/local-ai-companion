@@ -1,0 +1,208 @@
+{
+  "schema_version": 3,
+  "channel_url": "https://www.youtube.com/@ranai-korea",
+  "channel_id": "UCteLxg8AyOrSkMQ6idR1Obw",
+  "channel": "xiang ran",
+  "channel_title": "xiang ran",
+  "reviewed_project_metadata": {
+    "youtube:channel_post:UgkxKNSY7vTm8iubnDlm-A7A8DWZ1882L4VJ": {
+      "channel_url": "https://www.youtube.com/@ranai-korea",
+      "channel_id": "UCteLxg8AyOrSkMQ6idR1Obw",
+      "project_url": "https://github.com/Robbyant/lingbot-map",
+      "external_urls": [
+        "https://github.com/Robbyant/lingbot-map",
+        "https://huggingface.co/robbyant/lingbot-map"
+      ]
+    }
+  },
+  "ingested_at": "2026-09-18T16:31:15.627783+00:00",
+  "last_refresh": "2026-09-18T16:31:15.627783+00:00",
+  "documents": [
+    {
+      "title": "Practical Local AI Tools — Tested, Not Just Hyped",
+      "url": "https://www.youtube.com/post/Ugkx7_svAavVpcIQs7Hwt3_hINIfUOaNsSaG",
+      "video_url": "",
+      "post_url": "https://www.youtube.com/post/Ugkx7_svAavVpcIQs7Hwt3_hINIfUOaNsSaG",
+      "post_id": "Ugkx7_svAavVpcIQs7Hwt3_hINIfUOaNsSaG",
+      "first_party_reference_url": "https://www.youtube.com/post/Ugkx7_svAavVpcIQs7Hwt3_hINIfUOaNsSaG",
+      "channel": "xiang ran",
+      "date": "1 日前",
+      "summary": "Practical Local AI Tools — Tested, Not Just Hyped\n\nI’m going to share local AI tools and workflows that I have actually installed, tested, or verified through reliable public sources.\n\nThe focus is simple: Does it work? What hardware does it need? How fast is it? What are the common traps?\n\nLocal AI / Codex\n\nStart with Codex CLI + Ollama + a local model + Web Search.\n\nOpenAI Codex CLI:\nhttps://github.com/openai/codex\n\nOllama + Codex:\nhttps://docs.ollama.com/integrations/codex\n\nMiniMax H3 / ComfyUI\n\nI will share several H3 workflows and plugins that I have recently installed and successfully tested.\n\nTwo-stage latent refinement / acceleration workflow\n\nH3 face repair LoRA\n\nH3 action / combat LoRA workflows\n\nThe first recommendation will be the acceleration workflow that gave me a major speed improvement while keeping output quality close to the original workflow.\n\nI will include real generation times, VRAM requirements, image quality differences, and known failure cases.\n\nLocal AI Music\n\nFor full songs: ACE-Step 1.5\n\nhttps://github.com/ace-step/ACE-Step-1.5\n\nFor instrumental music / sound generation / Audio-to-Audio: Stable Audio 3\n\nhttps://github.com/Stability-AI/stable-audio-3\n\nOne important lesson from testing:\n\nACE-Step is better suited for song generation.\n\nStable Audio 3 is useful for instrumental/audio generation, continuation and A2A, but it is not the right tool if your goal is to naturally perform an existing musical score.",
+      "external_urls": [
+        "https://github.com/openai/codex",
+        "https://docs.ollama.com/integrations/codex",
+        "https://github.com/ace-step/ACE-Step-1.5",
+        "https://github.com/Stability-AI/stable-audio-3"
+      ],
+      "outbound_links": [
+        {
+          "displayed_text": "https://github.com/openai/codex",
+          "source_url": "https://github.com/openai/codex",
+          "outbound_url": "https://github.com/openai/codex",
+          "canonical_url": "https://github.com/openai/codex",
+          "source_platform": "github.com",
+          "repository_identity": "openai/codex",
+          "evidence": [
+            {
+              "provider": "youtube_payload",
+              "payload_field": "backstagePostRenderer.contentText.runs[1].text",
+              "payload_value": "https://github.com/openai/codex"
+            },
+            {
+              "provider": "youtube_payload",
+              "payload_field": "backstagePostRenderer.contentText.runs[0].text",
+              "payload_value": "https://github.com/openai/codex"
+            }
+          ]
+        },
+        {
+          "displayed_text": "https://docs.ollama.com/integrations/codex",
+          "source_url": "https://docs.ollama.com/integrations/codex",
+          "outbound_url": "https://docs.ollama.com/integrations/codex",
+          "canonical_url": "https://docs.ollama.com/integrations/codex",
+          "source_platform": "docs.ollama.com",
+          "repository_identity": "",
+          "evidence": [
+            {
+              "provider": "youtube_payload",
+              "payload_field": "backstagePostRenderer.contentText.runs[3].text",
+              "payload_value": "https://docs.ollama.com/integrations/codex"
+            },
+            {
+              "provider": "youtube_payload",
+              "payload_field": "backstagePostRenderer.contentText.runs[0].text",
+              "payload_value": "https://docs.ollama.com/integrations/codex"
+            }
+          ]
+        },
+        {
+          "displayed_text": "https://github.com/ace-step/ACE-Step-1.5",
+          "source_url": "https://github.com/ace-step/ACE-Step-1.5",
+          "outbound_url": "https://github.com/ace-step/ACE-Step-1.5",
+          "canonical_url": "https://github.com/ace-step/ace-step-1.5",
+          "source_platform": "github.com",
+          "repository_identity": "ace-step/ACE-Step-1.5",
+          "evidence": [
+            {
+              "provider": "youtube_payload",
+              "payload_field": "backstagePostRenderer.contentText.runs[5].text",
+              "payload_value": "https://github.com/ace-step/ACE-Step-1.5"
+            },
+            {
+              "provider": "youtube_payload",
+              "payload_field": "backstagePostRenderer.contentText.runs[0].text",
+              "payload_value": "https://github.com/ace-step/ACE-Step-1.5"
+            }
+          ]
+        },
+        {
+          "displayed_text": "https://github.com/Stability-AI/stable-audio-3",
+          "source_url": "https://github.com/Stability-AI/stable-audio-3",
+          "outbound_url": "https://github.com/Stability-AI/stable-audio-3",
+          "canonical_url": "https://github.com/stability-ai/stable-audio-3",
+          "source_platform": "github.com",
+          "repository_identity": "Stability-AI/stable-audio-3",
+          "evidence": [
+            {
+              "provider": "youtube_payload",
+              "payload_field": "backstagePostRenderer.contentText.runs[7].text",
+              "payload_value": "https://github.com/Stability-AI/stable-audio-3"
+            },
+            {
+              "provider": "youtube_payload",
+              "payload_field": "backstagePostRenderer.contentText.runs[0].text",
+              "payload_value": "https://github.com/Stability-AI/stable-audio-3"
+            }
+          ]
+        }
+      ],
+      "project_links": [
+        "https://github.com/openai/codex",
+        "https://github.com/ace-step/ACE-Step-1.5",
+        "https://github.com/Stability-AI/stable-audio-3"
+      ],
+      "source_type": "YouTube Post",
+      "content_type": "channel_post",
+      "discovered_by": "Configured first-party channel: https://www.youtube.com/@ranai-korea",
+      "document_id": "youtube:channel_post:Ugkx7_svAavVpcIQs7Hwt3_hINIfUOaNsSaG",
+      "result_identity": "youtube:channel_post:Ugkx7_svAavVpcIQs7Hwt3_hINIfUOaNsSaG",
+      "video_id": "",
+      "channel_id": "UCteLxg8AyOrSkMQ6idR1Obw",
+      "channel_url": "https://www.youtube.com/@ranai-korea",
+      "description": "Practical Local AI Tools — Tested, Not Just Hyped\n\nI’m going to share local AI tools and workflows that I have actually installed, tested, or verified through reliable public sources.\n\nThe focus is simple: Does it work? What hardware does it need? How fast is it? What are the common traps?\n\nLocal AI / Codex\n\nStart with Codex CLI + Ollama + a local model + Web Search.\n\nOpenAI Codex CLI:\nhttps://github.com/openai/codex\n\nOllama + Codex:\nhttps://docs.ollama.com/integrations/codex\n\nMiniMax H3 / ComfyUI\n\nI will share several H3 workflows and plugins that I have recently installed and successfully tested.\n\nTwo-stage latent refinement / acceleration workflow\n\nH3 face repair LoRA\n\nH3 action / combat LoRA workflows\n\nThe first recommendation will be the acceleration workflow that gave me a major speed improvement while keeping output quality close to the original workflow.\n\nI will include real generation times, VRAM requirements, image quality differences, and known failure cases.\n\nLocal AI Music\n\nFor full songs: ACE-Step 1.5\n\nhttps://github.com/ace-step/ACE-Step-1.5\n\nFor instrumental music / sound generation / Audio-to-Audio: Stable Audio 3\n\nhttps://github.com/Stability-AI/stable-audio-3\n\nOne important lesson from testing:\n\nACE-Step is better suited for song generation.\n\nStable Audio 3 is useful for instrumental/audio generation, continuation and A2A, but it is not the right tool if your goal is to naturally perform an existing musical score.",
+      "publication_date": "1 日前",
+      "repository_identities": [
+        "openai/codex",
+        "ace-step/ACE-Step-1.5",
+        "Stability-AI/stable-audio-3"
+      ],
+      "normalized_search_text": "practical local ai tools tested not just hyped practical local ai tools tested not just hyped i m going to share local ai tools and workflows that i have actually installed tested or verified through reliable public sources. the focus is simple does it work what hardware does it need how fast is it what are the common traps local ai / codex start with codex cli + ollama + a local model + web search. openai codex cli https //github.com/openai/codex ollama + codex https //docs.ollama.com/integrations/codex minimax h3 / comfyui i will share several h3 workflows and plugins that i have recently installed and successfully tested. two-stage latent refinement / acceleration workflow h3 face repair lora h3 action / combat lora workflows the first recommendation will be the acceleration workflow that gave me a major speed improvement while keeping output quality close to the original workflow. i will include real generation times vram requirements image quality differences and known failure cases. local ai music for full songs ace-step 1.5 https //github.com/ace-step/ace-step-1.5 for instrumental music / sound generation / audio-to-audio stable audio 3 https //github.com/stability-ai/stable-audio-3 one important lesson from testing ace-step is better suited for song generation. stable audio 3 is useful for instrumental/audio generation continuation and a2a but it is not the right tool if your goal is to naturally perform an existing musical score. openai/codex ace-step/ace-step-1.5 stability-ai/stable-audio-3 https //github.com/openai/codex https //docs.ollama.com/integrations/codex https //github.com/ace-step/ace-step-1.5 https //github.com/stability-ai/stable-audio-3 https //github.com/openai/codex https //docs.ollama.com/integrations/codex https //github.com/ace-step/ace-step-1.5 https //github.com/stability-ai/stable-audio-3 xiang ran",
+      "first_party": true,
+      "tutorial_url": "",
+      "project_url": "https://github.com/openai/codex",
+      "provenance": {
+        "provider": "youtube_channel",
+        "channel_url": "https://www.youtube.com/@ranai-korea",
+        "channel_id": "UCteLxg8AyOrSkMQ6idR1Obw",
+        "item_id": "Ugkx7_svAavVpcIQs7Hwt3_hINIfUOaNsSaG"
+      },
+      "content_fingerprint": "1aadabc82971ac5f83b6154cd25c7de38ced4b7ff8e85a003ba79c9dca9f1755"
+    },
+    {
+      "title": "LingBot-Map — Real-Time 3D Reconstruction",
+      "url": "https://www.youtube.com/post/UgkxKNSY7vTm8iubnDlm-A7A8DWZ1882L4VJ",
+      "video_url": "",
+      "post_url": "https://www.youtube.com/post/UgkxKNSY7vTm8iubnDlm-A7A8DWZ1882L4VJ",
+      "post_id": "UgkxKNSY7vTm8iubnDlm-A7A8DWZ1882L4VJ",
+      "first_party_reference_url": "https://www.youtube.com/post/UgkxKNSY7vTm8iubnDlm-A7A8DWZ1882L4VJ",
+      "channel": "xiang ran",
+      "date": "1 日前（編集済み）",
+      "summary": "LingBot-Map — Real-Time 3D Reconstruction\n\nWhat it does\nLingBot-Map reconstructs a 3D scene from images or video in a streaming workflow. It can produce point-cloud style 3D environments and supports long sequences, so it is useful for turning a real location into a rough 3D scene instead of rebuilding everything manually in Blender. The official demo supports both image folders and video input.\n\nOfficial links\nGitHub: LingBot-Map GitHub\nModel: LingBot-Map on Hugging Face\n\nInstall size\nThe main model checkpoint is about 4.63 GB. The complete environment will be larger because PyTorch, CUDA-related packages, FlashInfer, visualization libraries and optional rendering dependencies are separate, so I would reserve roughly 10–20 GB for a practical Windows/Linux installation rather than planning around the checkpoint size alone.\n\n## Minimum hardware requirements\n## Minimum hardware requirements\n\nLingBot-Map does not currently publish a strict official minimum hardware specification, so it is better to separate the requirements into practical minimum and recommended configurations.\n\n**Minimum practical configuration:**\n\n* **Operating system:** Windows 10/11 with WSL2, or Ubuntu/Linux\n* **CPU:** Modern 6-core x86-64 processor, roughly Intel Core i5 / AMD Ryzen 5 class or better\n* **RAM:** **16 GB minimum**, 32 GB recommended\n* **GPU:** NVIDIA RTX-series GPU\n* **VRAM:** **8 GB can be treated as the minimum practical level**\n* **Recommended GPU:** RTX 3060 12 GB, RTX 4060 8 GB, or better\n* **More comfortable VRAM:** 16–24 GB\n* **Python:** Python 3.10\n* **PyTorch:** Current official setup uses PyTorch 2.8.0\n* **CUDA:** Current installation examples use CUDA 12.8\n* **Storage:** Reserve at least **15–20 GB** for a practical installation\n* **Internet connection:** Required for the initial dependency installation and model download\n\nAn **8 GB GPU should be considered the practical entry point rather than a guaranteed requirement for every workload**. Low-VRAM setups rely on techniques such as CPU offloading, reduced frame scaling, smaller caches, and more conservative inference settings.\n\nFor basic installation and testing:\n\n**RTX 4060 8 GB + 16 GB RAM: usable for experimentation.**\n\nFor normal video reconstruction with fewer out-of-memory problems:\n\n**RTX 3060 12 GB / RTX 4070 12 GB + 32 GB RAM: a more realistic recommendation.**\n\nFor long sequences, larger scenes, heavier point-cloud rendering, or more comfortable local use:\n\n**16–24 GB VRAM + 32–64 GB RAM: recommended.**\n\nIt is important to note that memory usage can increase significantly with longer sequences, higher resolutions, larger caches, and more demanding rendering settings. Therefore, an 8 GB GPU should be viewed as a low-VRAM configuration that may require reduced settings rather than as a full-performance setup.\n\nMy assessment\nThis is more interesting as a 3D scene reconstruction / previs tool than as a robotics tool for your use case. I would not call it a full Blender replacement. It is better at quickly converting a real scene or walkthrough video into usable 3D spatial reference; Blender is still better for precise character placement, props, animation blocking and camera control.\n\nHow I recommend using it\n\nShoot or record a real location\n→ LingBot-Map reconstructs the scene\n→ inspect the 3D point cloud / camera path\n→ use it as the environment reference\n→ move into Blender only when you need precise actors, props or camera blocking\n→ render previs\n→ send the previs/reference into H3\n\nFor you, the best use is not “make the final 3D movie with LingBot-Map.”\nIt is:\n\nreal environment → fast 3D reconstruction → previs/reference → H3\n\nThat can save a lot of time compared with rebuilding every real location from zero in Blender.\n\nKeywords\nLingBot-Map, 3D reconstruction, real-time 3D, streaming 3D, point cloud, 3D scene reconstruction, video to 3D, image to 3D, AI video previs, 3D previs, Blender previs, virtual production, camera path, scene layout, local 3D workflow, AI filmmaking, MiniMax H3, ComfyUI, 3D environment，real location reconstruction, 3D reference scene, AI movie production, shot planning, camera blocking, environment capture",
+      "external_urls": [
+        "https://github.com/Robbyant/lingbot-map",
+        "https://huggingface.co/robbyant/lingbot-map"
+      ],
+      "outbound_links": [],
+      "project_links": [
+        "https://github.com/Robbyant/lingbot-map"
+      ],
+      "source_type": "YouTube Post",
+      "content_type": "channel_post",
+      "discovered_by": "Configured first-party channel: https://www.youtube.com/@ranai-korea",
+      "document_id": "youtube:channel_post:UgkxKNSY7vTm8iubnDlm-A7A8DWZ1882L4VJ",
+      "result_identity": "youtube:channel_post:UgkxKNSY7vTm8iubnDlm-A7A8DWZ1882L4VJ",
+      "video_id": "",
+      "channel_id": "UCteLxg8AyOrSkMQ6idR1Obw",
+      "channel_url": "https://www.youtube.com/@ranai-korea",
+      "description": "LingBot-Map — Real-Time 3D Reconstruction\n\nWhat it does\nLingBot-Map reconstructs a 3D scene from images or video in a streaming workflow. It can produce point-cloud style 3D environments and supports long sequences, so it is useful for turning a real location into a rough 3D scene instead of rebuilding everything manually in Blender. The official demo supports both image folders and video input.\n\nOfficial links\nGitHub: LingBot-Map GitHub\nModel: LingBot-Map on Hugging Face\n\nInstall size\nThe main model checkpoint is about 4.63 GB. The complete environment will be larger because PyTorch, CUDA-related packages, FlashInfer, visualization libraries and optional rendering dependencies are separate, so I would reserve roughly 10–20 GB for a practical Windows/Linux installation rather than planning around the checkpoint size alone.\n\n## Minimum hardware requirements\n## Minimum hardware requirements\n\nLingBot-Map does not currently publish a strict official minimum hardware specification, so it is better to separate the requirements into practical minimum and recommended configurations.\n\n**Minimum practical configuration:**\n\n* **Operating system:** Windows 10/11 with WSL2, or Ubuntu/Linux\n* **CPU:** Modern 6-core x86-64 processor, roughly Intel Core i5 / AMD Ryzen 5 class or better\n* **RAM:** **16 GB minimum**, 32 GB recommended\n* **GPU:** NVIDIA RTX-series GPU\n* **VRAM:** **8 GB can be treated as the minimum practical level**\n* **Recommended GPU:** RTX 3060 12 GB, RTX 4060 8 GB, or better\n* **More comfortable VRAM:** 16–24 GB\n* **Python:** Python 3.10\n* **PyTorch:** Current official setup uses PyTorch 2.8.0\n* **CUDA:** Current installation examples use CUDA 12.8\n* **Storage:** Reserve at least **15–20 GB** for a practical installation\n* **Internet connection:** Required for the initial dependency installation and model download\n\nAn **8 GB GPU should be considered the practical entry point rather than a guaranteed requirement for every workload**. Low-VRAM setups rely on techniques such as CPU offloading, reduced frame scaling, smaller caches, and more conservative inference settings.\n\nFor basic installation and testing:\n\n**RTX 4060 8 GB + 16 GB RAM: usable for experimentation.**\n\nFor normal video reconstruction with fewer out-of-memory problems:\n\n**RTX 3060 12 GB / RTX 4070 12 GB + 32 GB RAM: a more realistic recommendation.**\n\nFor long sequences, larger scenes, heavier point-cloud rendering, or more comfortable local use:\n\n**16–24 GB VRAM + 32–64 GB RAM: recommended.**\n\nIt is important to note that memory usage can increase significantly with longer sequences, higher resolutions, larger caches, and more demanding rendering settings. Therefore, an 8 GB GPU should be viewed as a low-VRAM configuration that may require reduced settings rather than as a full-performance setup.\n\nMy assessment\nThis is more interesting as a 3D scene reconstruction / previs tool than as a robotics tool for your use case. I would not call it a full Blender replacement. It is better at quickly converting a real scene or walkthrough video into usable 3D spatial reference; Blender is still better for precise character placement, props, animation blocking and camera control.\n\nHow I recommend using it\n\nShoot or record a real location\n→ LingBot-Map reconstructs the scene\n→ inspect the 3D point cloud / camera path\n→ use it as the environment reference\n→ move into Blender only when you need precise actors, props or camera blocking\n→ render previs\n→ send the previs/reference into H3\n\nFor you, the best use is not “make the final 3D movie with LingBot-Map.”\nIt is:\n\nreal environment → fast 3D reconstruction → previs/reference → H3\n\nThat can save a lot of time compared with rebuilding every real location from zero in Blender.\n\nKeywords\nLingBot-Map, 3D reconstruction, real-time 3D, streaming 3D, point cloud, 3D scene reconstruction, video to 3D, image to 3D, AI video previs, 3D previs, Blender previs, virtual production, camera path, scene layout, local 3D workflow, AI filmmaking, MiniMax H3, ComfyUI, 3D environment，real location reconstruction, 3D reference scene, AI movie production, shot planning, camera blocking, environment capture",
+      "publication_date": "1 日前（編集済み）",
+      "repository_identities": [
+        "Robbyant/lingbot-map"
+      ],
+      "normalized_search_text": "lingbot-map real-time 3d reconstruction lingbot-map real-time 3d reconstruction what it does lingbot-map reconstructs a 3d scene from images or video in a streaming workflow. it can produce point-cloud style 3d environments and supports long sequences so it is useful for turning a real location into a rough 3d scene instead of rebuilding everything manually in blender. the official demo supports both image folders and video input. official links github lingbot-map github model lingbot-map on hugging face install size the main model checkpoint is about 4.63 gb. the complete environment will be larger because pytorch cuda-related packages flashinfer visualization libraries and optional rendering dependencies are separate so i would reserve roughly 10 20 gb for a practical windows/linux installation rather than planning around the checkpoint size alone. minimum hardware requirements minimum hardware requirements lingbot-map does not currently publish a strict official minimum hardware specification so it is better to separate the requirements into practical minimum and recommended configurations. minimum practical configuration operating system windows 10/11 with wsl2 or ubuntu/linux cpu modern 6-core x86-64 processor roughly intel core i5 / amd ryzen 5 class or better ram 16 gb minimum 32 gb recommended gpu nvidia rtx-series gpu vram 8 gb can be treated as the minimum practical level recommended gpu rtx 3060 12 gb rtx 4060 8 gb or better more comfortable vram 16 24 gb python python 3.10 pytorch current official setup uses pytorch 2.8.0 cuda current installation examples use cuda 12.8 storage reserve at least 15 20 gb for a practical installation internet connection required for the initial dependency installation and model download an 8 gb gpu should be considered the practical entry point rather than a guaranteed requirement for every workload . low-vram setups rely on techniques such as cpu offloading reduced frame scaling smaller caches and more conservative inference settings. for basic installation and testing rtx 4060 8 gb + 16 gb ram usable for experimentation. for normal video reconstruction with fewer out-of-memory problems rtx 3060 12 gb / rtx 4070 12 gb + 32 gb ram a more realistic recommendation. for long sequences larger scenes heavier point-cloud rendering or more comfortable local use 16 24 gb vram + 32 64 gb ram recommended. it is important to note that memory usage can increase significantly with longer sequences higher resolutions larger caches and more demanding rendering settings. therefore an 8 gb gpu should be viewed as a low-vram configuration that may require reduced settings rather than as a full-performance setup. my assessment this is more interesting as a 3d scene reconstruction / previs tool than as a robotics tool for your use case. i would not call it a full blender replacement. it is better at quickly converting a real scene or walkthrough video into usable 3d spatial reference blender is still better for precise character placement props animation blocking and camera control. how i recommend using it shoot or record a real location lingbot-map reconstructs the scene inspect the 3d point cloud / camera path use it as the environment reference move into blender only when you need precise actors props or camera blocking render previs send the previs/reference into h3 for you the best use is not make the final 3d movie with lingbot-map. it is real environment fast 3d reconstruction previs/reference h3 that can save a lot of time compared with rebuilding every real location from zero in blender. keywords lingbot-map 3d reconstruction real-time 3d streaming 3d point cloud 3d scene reconstruction video to 3d image to 3d ai video previs 3d previs blender previs virtual production camera path scene layout local 3d workflow ai filmmaking minimax h3 comfyui 3d environment real location reconstruction 3d reference scene ai movie production shot planning camera blocking environment capture robbyant/lingbot-map https //github.com/robbyant/lingbot-map https //huggingface.co/robbyant/lingbot-map xiang ran",
+      "first_party": true,
+      "tutorial_url": "",
+      "project_url": "https://github.com/Robbyant/lingbot-map",
+      "provenance": {
+        "provider": "youtube_channel",
+        "channel_url": "https://www.youtube.com/@ranai-korea",
+        "channel_id": "UCteLxg8AyOrSkMQ6idR1Obw",
+        "item_id": "UgkxKNSY7vTm8iubnDlm-A7A8DWZ1882L4VJ"
+      },
+      "content_fingerprint": "3d0ee781528f2302f1f00b9787344fa9c8e7fb76e1db0b35280b3f40012af1e1",
+      "content_trust": "TRUSTED_FIRST_PARTY_CONTENT",
+      "authority": "FIRST_PARTY"
+    }
+  ],
+  "refresh": {
+    "status": "completed",
+    "previous_document_count": 2,
+    "current_source_count": 2,
+    "new": 0,
+    "changed": 0,
+    "removed": 0,
+    "unchanged": 2,
+    "final_persisted_count": 2,
+    "removed_documents": []
+  }
+}

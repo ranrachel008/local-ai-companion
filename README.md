@@ -1,10 +1,19 @@
 # Local AI Solution Scout
 
+
+## 0.1.17 Windows prerelease
+
+[Download GUI or MCP Agent](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta). Choose **Local-AI-Companion-0.1.17-Windows-onedir.zip** for the desktop workflow, or **Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip** for your existing MCP chat host. Extract the whole folder; keep `_internal`. Models are not bundled. Agent research/planning/chat persistence was verified with existing Strata/Qwen; other hosts/models remain unverified. The Agent exposes search, research, plan and job lookup; human installation approval/execution remains a separate GUI operation.
+
+[Agent quickstart](docs/AGENT_QUICKSTART.md) · [MCP example](docs/client-config.example.json) · [Acceptance and limits](docs/ACCEPTANCE_0.1.17.md) · [Exact Agent source](agent-source/) · [GUI source/provenance](gui-source/)
+
+## Historical 0.1.0-beta documentation
+
 > **Compatibility notice — v0.1.0-beta (2026-09-30)**
 >
 > The published Windows package does **not** currently let users freely select a local AI model or backend. Its AI features are fixed to Ollama at `http://127.0.0.1:11434` and the model tag `ornith-prefilter:35b`. Having Qwen or another local model installed is not sufficient. The earlier claim that the released Beta was not tied to one model was inaccurate; we apologize.
 >
-> A corrected application package has **not** been published. This documentation correction does not fix the existing EXE. Please read the limitations below before downloading.
+> This notice applies only to the historical v0.1.0-beta package; use the separate 0.1.17 prerelease links below.
 
 **Official website / 官方網站：** [Ran AI](https://ran-local-ai-scout.benzhiyanjiu.chatgpt.site)
 
@@ -27,7 +36,7 @@ Instead of asking AI to invent an installation method from scratch, it looks for
 - Use local AI to help install and troubleshoot software
 - Designed for users who do not want to spend hours reading technical tutorials
 
-## Local AI — current release limitations
+## Local AI — historical release limitations
 
 Static inspection of the published `Ornith-Solution-Scout-0.1.0.zip` found:
 
@@ -49,7 +58,7 @@ The project is being tested with real software installation tasks.
 
 ## Download
 
-The existing v0.1.0-beta package is available from the Releases page above, with the limitations described here. No corrected package is available yet.
+The existing v0.1.0-beta package is available from the Releases page above, with the limitations described here. This historical package is separate from 0.1.17 above.
 
 ## Platform
 

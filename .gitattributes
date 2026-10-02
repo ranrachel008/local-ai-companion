@@ -1,0 +1,4 @@
+
+# Preserve exact build-source bytes and fingerprint provenance.
+agent-source/** -text
+gui-source/** -text
