@@ -15,7 +15,7 @@
 >
 > 已发布的 Windows 安装包目前**不能自由选择本地 AI 模型或后端**。其中的 AI 功能固定连接 `http://127.0.0.1:11434` 的 Ollama，并要求模型标签为 `ornith-prefilter:35b`。仅安装 Qwen 或其他本地模型并不能直接使用。此前关于已发布 Beta「不绑定某一个 AI 模型」的说明不准确，对此我们道歉。
 >
-> 此说明仅适用于历史 v0.1.0-beta 包；新版请使用下方独立的 0.1.17 预发布下载入口。
+> 此说明仅适用于历史 v0.1.0-beta 包；新版请使用上方独立的 0.1.17 预发布下载入口。
 
 **找到已经跑通的方案，照着做，剩下的交给本地 AI。**
 
@@ -60,7 +60,7 @@ Local AI Solution Scout 是一个面向普通用户的本地 AI 软件工具。
 
 ## 下载
 
-现有 [v0.1.0-beta 程序包](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.0-beta) 存在上述限制。尚未提供修复版本，请勿将现有包视为可自由连接其他本地 AI 的版本。
+历史 [v0.1.0-beta 程序包](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.0-beta) 存在上述限制，这些限制仅适用于该历史包。新版 GUI 与 MCP Agent 已提供独立的 [0.1.17 预发布下载](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta)，使用范围与已验证兼容性见上方说明。
 
 ## 支持平台
 
