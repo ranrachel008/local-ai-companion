@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+**Official website:** [Ran AI](https://ran-local-ai-scout.benzhiyanjiu.chatgpt.site)
+
 **Find a setup others have already made work, then follow their instructions step by step.**
 
 Deploying MiniMax H3, configuring acceleration or LoRA, or finding a practical way to run Qwen 3.8 or a 120B-class model on your own hardware can mean working through many guides. Local AI Solution Scout helps you find and read project documentation, author tutorials and community guides with working examples on GitHub, YouTube and other public platforms. It brings the sources, prerequisites, version requirements and steps together into a configuration and installation plan that AI can follow.
