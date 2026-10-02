@@ -1,6 +1,6 @@
 # Local AI Companion Agent 0.1.17-agent.1
 
-Extract this entire folder and keep the EXE beside `_internal`. Build: 20261002T095621Z-18fb7af4.
+Download `Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip` from the [0.1.17 prerelease](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta). Extract the entire folder and keep `Local-AI-Companion-Agent-0.1.17-agent.1.exe` beside `_internal`. Build: 20261002T095621Z-18fb7af4.
 Configure your existing stdio MCP client using client-config.example.json; replace every path with your own absolute Windows paths. The example contains no model endpoint or credentials. Keep the dedicated Agent workspace separate from existing GUI jobs. The optional --read-jobs-root is read-only.
 
 Discover tools/list before calling tools. Available tools: scout_search(goal, limit), scout_research(job_id, analyze=false), scout_plan(job_id), scout_job(job_id). Use returned job identities, never invented IDs. Research requires a selected candidate and acquired, verified source snapshot in the saved job; search alone does not prepare every research prerequisite. Human-controlled source acquisition and candidate selection use the existing Companion workflow. Public source acquisition is distinct from installation approval.
