@@ -14,7 +14,9 @@
 2. **GUI：** EXE 打开后的操作窗口，用来搜索、研究和审阅安装。EXE 和 GUI 在同一个下载包里。
 3. **Agent：** 给本地 AI 调用的版本，接入聊天软件后，让 AI 帮你搜索、研究和生成计划。
 
-## 下载哪一个？
+## 下载 0.1.17
+
+运行软件请用下面两个下载入口；绿色 Code → Download ZIP 下载的是源码。
 
 - **自己用窗口操作：** [下载窗口版（EXE / GUI）](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-0.1.17-Windows-onedir.zip)。完整解压，保留 `_internal`，然后双击里面的 EXE。
 - **让本地 AI 使用：** [下载 Agent 版](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip)，按[接入说明](docs/AGENT_QUICKSTART.md)连接已有聊天软件。完整解压并保留 `_internal`。
