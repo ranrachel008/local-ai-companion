@@ -18,22 +18,22 @@ The desktop app can download project files and, after you approve the plan, auto
 
 ## Download 0.1.17
 
-To run the software, use one of the two downloads below. The green Code → Download ZIP menu downloads source code.
+EXE and GUI are included in the same Windows package. Use the direct download below; Code → Download ZIP downloads the repository snapshot.
 
-- **Use the app yourself:** [Download the desktop version (EXE / GUI)](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-0.1.17-Windows-onedir.zip). Extract the whole ZIP, keep `_internal`, then double-click the EXE.
-- **Let your local AI use it:** [Download the Agent version](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip), then follow the [connection guide](docs/AGENT_QUICKSTART.md). Extract the whole ZIP and keep `_internal`.
+- **Use the app yourself:** [Download the desktop version (EXE / GUI)](https://raw.githubusercontent.com/ranrachel008/local-ai-solution-scout/main/GitHub-upload-0.1.17%281%29.zip). Extract the whole ZIP, keep `_internal`, then double-click the EXE.
+- **Let your local AI use it:** The Agent Windows package has not been uploaded to this repository yet. Its download link will be added after the complete EXE and `_internal` package is uploaded. See the [connection guide](docs/AGENT_QUICKSTART.md).
 
 You can ask a cloud AI to help review the plan, or check it yourself; you give the final approval to execute it. The Agent provides search, research and planning tools, with no installation execution entry point. Models are supplied separately.
 
-Windows Beta · [Release page](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta)
+Windows Beta · [Package checksum](docs/DOWNLOADS_0.1.17.md)
 
 <details>
-<summary>Compatibility, source code and developer information</summary>
+<summary>Compatibility and connection information</summary>
 
 Verified with the existing Strata/Qwen setup. Other models and chat hosts remain unverified; see the [acceptance record and limits](docs/ACCEPTANCE_0.1.17.md).
 
-[MCP configuration example](docs/client-config.example.json) · [Agent source](agent-source/) · [GUI source and provenance](gui-source/) · [Release checklist](docs/PRE_RELEASE_0.1.17.md)
+[MCP configuration example](docs/client-config.example.json) · [Download status and checksum](docs/DOWNLOADS_0.1.17.md)
 
-Source ZIPs, the source manifest and SHA-256 checksums are available on the release page for development and verification.
+Source code is not included in the current repository downloads.
 
 </details>

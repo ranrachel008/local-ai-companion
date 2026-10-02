@@ -18,22 +18,22 @@
 
 ## 下载 0.1.17
 
-运行软件请用下面两个下载入口；绿色 Code → Download ZIP 下载的是源码。
+EXE 和 GUI 在同一个 Windows 程序包里。请使用下面的直接下载入口；绿色 Code → Download ZIP 下载的是整个仓库快照。
 
-- **自己用窗口操作：** [下载窗口版（EXE / GUI）](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-0.1.17-Windows-onedir.zip)。完整解压，保留 `_internal`，然后双击里面的 EXE。
-- **让本地 AI 使用：** [下载 Agent 版](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip)，按[接入说明](docs/AGENT_QUICKSTART.md)连接已有聊天软件。完整解压并保留 `_internal`。
+- **自己用窗口操作：** [下载窗口版（EXE / GUI）](https://raw.githubusercontent.com/ranrachel008/local-ai-solution-scout/main/GitHub-upload-0.1.17%281%29.zip)。完整解压，保留 `_internal`，然后双击里面的 EXE。
+- **让本地 AI 使用：** Agent Windows 程序包尚未上传到这个仓库。上传完整的 EXE 和 `_internal` 成品包后，将补上下载入口。接入方法见[接入说明](docs/AGENT_QUICKSTART.md)。
 
 安装计划可请云端 AI 协助审阅，也可以自己检查，最终由你确认执行。Agent 版负责搜索、研究和生成计划，不提供安装执行入口。模型需另行准备。
 
-Windows Beta 测试版 · [发布页](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta)
+Windows Beta 测试版 · [下载状态与校验值](docs/DOWNLOADS_0.1.17.md)
 
 <details>
-<summary>兼容性、源码与开发者资料</summary>
+<summary>兼容性与接入资料</summary>
 
 已在既有 Strata/Qwen 环境验证。其他模型和聊天软件尚未验证，详见[验收记录与限制](docs/ACCEPTANCE_0.1.17.md)。
 
-[MCP 配置示例](docs/client-config.example.json) · [Agent 源码](agent-source/) · [GUI 源码与来源说明](gui-source/) · [发布清单](docs/PRE_RELEASE_0.1.17.md)
+[MCP 配置示例](docs/client-config.example.json) · [下载状态与校验值](docs/DOWNLOADS_0.1.17.md)
 
-发布页中的源码包、源码指纹和 SHA-256 清单供开发与核对使用。
+当前仓库下载不包含程序源码。
 
 </details>
