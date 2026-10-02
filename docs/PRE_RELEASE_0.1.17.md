@@ -52,9 +52,3 @@ README 應讓普通使用者先選擇：
 5. 先建立 Draft Release 並標記 Prerelease，附齊所有下載資產。核對 GitHub 上的資產清單、大小及可用雜湊／下載內容與本地一致，再發布。
 
 既有定向測試、真實聊天搜尋及 GUI 人工驗收無需全面重跑。若發布包有新的程式碼或配置變動，只驗證受影響的部分。
-
-## GitHub 上現有的版本
-
-發布準備時，main 只包含 README、中文 README、.gitignore 和 Ornith-Solution-Scout-0.1.0.zip；公開 Release 為 v0.1.0-beta。請保留其歷史說明。
-
-新版成功上傳後，更新兩份 README 的主要下載入口，清楚區分新版與舊 0.1.0 的 Ollama 固定配置限制。勿在新版資產尚未可下載時寫成「新版已發布」。
