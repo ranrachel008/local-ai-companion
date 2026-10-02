@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+**官方网站：** [Ran AI](https://ran-local-ai-scout.benzhiyanjiu.chatgpt.site)
+
 **先找前人跑通的方案，再照着说明书一步步配置。**
 
 部署 MiniMax H3、配置加速和 LoRA，或为 Qwen 3.8、120B 级别的大模型寻找适合自己硬件的运行方法，常常要翻很多说明书和教程。Local AI Solution Scout 帮你查找、阅读并整理 GitHub、YouTube 等平台上的项目说明、作者教程和社区实操经验，把来源、关键前提、版本要求和操作步骤整理成配置与安装计划，让 AI 按照前人已经跑通的方法去做。
