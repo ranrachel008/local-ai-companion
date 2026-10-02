@@ -13,7 +13,7 @@
 >
 > The published Windows package does **not** currently let users freely select a local AI model or backend. Its AI features are fixed to Ollama at `http://127.0.0.1:11434` and the model tag `ornith-prefilter:35b`. Having Qwen or another local model installed is not sufficient. The earlier claim that the released Beta was not tied to one model was inaccurate; we apologize.
 >
-> This notice applies only to the historical v0.1.0-beta package; use the separate 0.1.17 prerelease links below.
+> This notice applies only to the historical v0.1.0-beta package; use the separate 0.1.17 prerelease links above.
 
 **Official website / 官方網站：** [Ran AI](https://ran-local-ai-scout.benzhiyanjiu.chatgpt.site)
 
