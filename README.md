@@ -14,7 +14,9 @@ The desktop app can download project files and, after you approve the plan, auto
 2. **GUI:** The window that EXE opens, where you search, research and review installations. EXE and GUI come in the same package.
 3. **Agent:** The separate version you connect to your local AI chat software so it can call search, research, plan and job tools.
 
-## Download
+## Download 0.1.17
+
+To run the software, use one of the two downloads below. The green Code → Download ZIP menu downloads source code.
 
 - **Use the app yourself:** [Download the desktop version (EXE / GUI)](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-0.1.17-Windows-onedir.zip). Extract the whole ZIP, keep `_internal`, then double-click the EXE.
 - **Let your local AI use it:** [Download the Agent version](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip), then follow the [connection guide](docs/AGENT_QUICKSTART.md). Extract the whole ZIP and keep `_internal`.
