@@ -2,14 +2,36 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+找到别人已经跑通的软件方案，整理安装方法，再审阅安装计划。
 
-## 0.1.17 Windows 预发布
+## EXE、GUI、Agent 是什么？
 
-[下载 GUI 或 MCP Agent](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta)。窗口流程选择 **Local-AI-Companion-0.1.17-Windows-onedir.zip**；接入现有聊天宿主选择 **Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip**。完整解压并保留 `_internal`。不包含模型。Agent 已在既有 Strata/Qwen 完成研究、计划与重启后聊天查询验收；其他模型／宿主未验证。Agent 没有安装批准或执行工具；安装须由人类另行在 GUI 审阅批准。
+1. **EXE：** 双击它，就能启动窗口版软件。
+2. **GUI：** EXE 打开后的操作窗口，用来搜索、研究和审阅安装。EXE 和 GUI 在同一个下载包里。
+3. **Agent：** 给本地 AI 调用的版本，接入聊天软件后，让 AI 帮你搜索、研究和生成计划。
 
-[Agent 快速入门](docs/AGENT_QUICKSTART.md) · [MCP 示例](docs/client-config.example.json) · [验收与限制](docs/ACCEPTANCE_0.1.17.md) · [Agent 对应源码](agent-source/) · [GUI 源码与来源说明](gui-source/)
+## 下载哪一个？
 
-## 历史 0.1.0-beta 说明
+- **自己用窗口操作：** [下载窗口版（EXE / GUI）](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-0.1.17-Windows-onedir.zip)。完整解压，保留 `_internal`，然后双击里面的 EXE。
+- **让本地 AI 使用：** [下载 Agent 版](https://github.com/ranrachel008/local-ai-solution-scout/releases/download/v0.1.17-beta/Local-AI-Companion-Agent-0.1.17-agent.1-Windows-onedir.zip)，按[接入说明](docs/AGENT_QUICKSTART.md)连接已有聊天软件。完整解压并保留 `_internal`。
+
+Agent 负责研究和生成计划；安装需要另行由人类审阅确认。模型需另行准备。
+
+Windows Beta 测试版 · [发布页](https://github.com/ranrachel008/local-ai-solution-scout/releases/tag/v0.1.17-beta)
+
+<details>
+<summary>兼容性、源码与开发者资料</summary>
+
+已在既有 Strata/Qwen 环境验证。其他模型和聊天软件尚未验证，详见[验收记录与限制](docs/ACCEPTANCE_0.1.17.md)。
+
+[MCP 配置示例](docs/client-config.example.json) · [Agent 源码](agent-source/) · [GUI 源码与来源说明](gui-source/) · [发布清单](docs/PRE_RELEASE_0.1.17.md)
+
+发布页中的源码包、源码指纹和 SHA-256 清单供开发与核对使用。
+
+</details>
+
+<details>
+<summary>历史 0.1.0-beta 说明</summary>
 
 > **兼容性更正 — v0.1.0-beta（2026-09-30）**
 >
@@ -72,3 +94,5 @@ Local AI Solution Scout 是一个面向普通用户的本地 AI 软件工具。
 ## 核心理念
 
 **不要重复造轮子。找到已经跑通的方案，然后复制成功的方法。**
+
+</details>
