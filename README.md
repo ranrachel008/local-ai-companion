@@ -1,26 +1,26 @@
-# Local AI Companion 0.1.18 · r111
+# Local AI Companion 0.1.19
 
 ## Download / 下載
 
 ### Windows Desktop / Windows 桌面版
 
-[**⬇ Download Local AI Companion 0.1.18 for Windows**](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.18-Windows-x64.zip)
+[**⬇ Download Local AI Companion 0.1.19 for Windows**](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.19-win64.zip)
 
-下載 ZIP 並完整解壓，然後直接雙擊最外層的 `Local AI Companion.exe`。
+下載 ZIP 並完整解壓，然後打開 `Local-AI-Companion-0.1.19` 資料夾，雙擊 `Local-AI-Companion-0.1.19.exe`。
 
-Download the ZIP, extract all files, then double-click `Local AI Companion.exe` in the top-level folder.
-
-### Agent / 代理程式
-
-[**⬇ Download Local AI Companion Agent 0.1.18**](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-Agent-0.1.18-agent.4.zip)
-
-Agent 版本供 MCP 或其他相容的 AI 客戶端使用。普通 Windows 用戶請下載上面的桌面版。
-
-The Agent package is intended for MCP and compatible AI clients. Most Windows users should download the desktop version above.
+Download the ZIP, extract all files, open the `Local-AI-Companion-0.1.19` folder, then double-click `Local-AI-Companion-0.1.19.exe`.
 
 > 請使用上面的正式下載連結。GitHub 綠色的 **Code → Download ZIP** 只會下載倉庫文件，不是軟件安裝包。
 >
-> Use the official download links above. GitHub’s green **Code → Download ZIP** downloads repository files, not the application package.
+> Use the official download link above. GitHub's green **Code → Download ZIP** downloads repository files, not the application package.
+
+## What's new in 0.1.19 / 本版更新
+
+- 啟動視窗更大，不用再往下拖動才能看到選單。 / Larger startup window; the menu fits without scrolling.
+- 連接本地 AI 時，仍會優先搜尋並排在第一位顯示官方教學頻道 @ranai-korea 的內容。 / With local AI connected, @ranai-korea channel posts are still found and ranked first.
+- 本地 AI 能讀懂頻道貼文中的安裝方法（包括 Node / npm 專案）。 / Local AI now understands install methods in channel posts, including Node / npm projects.
+- 本地 AI 設定有誤或模型回應失敗時，不再中斷搜尋或分析。 / Invalid local AI settings or model failures no longer stop search or analysis.
+- 分析速度大幅提升。 / Much faster analysis.
 
 ## About / 產品介紹
 
@@ -43,8 +43,7 @@ The Agent package is intended for MCP and compatible AI clients. Most Windows us
 
 ## Release files / 發行文件
 
-- [Windows Desktop / Windows 桌面版](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.18-Windows-x64.zip)
-- [Agent / 代理程式](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-Agent-0.1.18-agent.4.zip)
-- [SHA256 checksums / SHA256 校驗值](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/SHA256SUMS.txt)
-- [Third-party source package / 第三方源碼包](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/third-party-source-r34-20261005T174350Z.zip)
+- [Windows Desktop / Windows 桌面版](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.19-win64.zip)
 - [Open the latest release / 查看最新發行版](https://github.com/ranrachel008/local-ai-companion/releases/latest)
+
+EXE SHA256: `9f850c1646720bb192a6085ed665adf7544820852227d5e755428524086261d4`
