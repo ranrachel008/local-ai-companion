@@ -1,34 +1,44 @@
-# Local AI Companion 0.1.19
+# Local AI Companion 0.1.22
 
 ## Download / 下載
 
 ### Windows Desktop / Windows 桌面版
 
-[**⬇ Download Local AI Companion 0.1.19 for Windows**](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.19-win64.zip)
+[**⬇ Download Local AI Companion 0.1.22 for Windows**](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.22-Windows-x64.zip)
 
-下載 ZIP 並完整解壓，然後打開 `Local-AI-Companion-0.1.19` 資料夾，雙擊 `Local-AI-Companion-0.1.19.exe`。
+下載 ZIP 並完整解壓，然後雙擊 `Local-AI-Companion-0.1.22.exe`。
 
-Download the ZIP, extract all files, open the `Local-AI-Companion-0.1.19` folder, then double-click `Local-AI-Companion-0.1.19.exe`.
+Download the ZIP, extract all files, then double-click `Local-AI-Companion-0.1.22.exe`.
 
 ### Agent / 代理程式
 
-[**⬇ Download Local AI Companion Agent 0.1.19**](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-Agent-0.1.19-agent.1.zip)
+[**⬇ Download Local AI Companion Agent 0.1.22**](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-Agent-0.1.22-agent.1-Windows-x64.zip)
 
-Agent 版本供 MCP 或其他相容的 AI 客戶端使用。普通 Windows 用戶請下載上面的桌面版。需要先安裝 Microsoft Visual C++ x64 Redistributable。
+Agent 適用於 MCP 與相容的 AI 客戶端；普通 Windows 用戶請下載上面的桌面版。需要先安裝 Microsoft Visual C++ x64 Redistributable。
 
-The Agent package is intended for MCP and compatible AI clients. Most Windows users should download the desktop version above. Requires the Microsoft Visual C++ x64 Redistributable.
+The Agent package is intended for MCP and compatible AI clients. Most Windows users should download the desktop app above. Microsoft Visual C++ x64 Redistributable is required.
 
-> 請使用上面的正式下載連結。GitHub 綠色的 **Code → Download ZIP** 只會下載倉庫文件，不是軟件安裝包。
+> 請使用上面的正式下載連結。GitHub 綠色的 **Code → Download ZIP** 只會下載倉庫原始碼，不是軟件安裝包。
 >
-> Use the official download links above. GitHub's green **Code → Download ZIP** downloads repository files, not the application package.
+> Use the official download links above. GitHub's green **Code → Download ZIP** downloads repository source files, not the application package.
 
-## What's new in 0.1.19 / 本版更新
+## What's new in 0.1.22 / 本版更新
 
-- 啟動視窗更大，不用再往下拖動才能看到選單。 / Larger startup window; the menu fits without scrolling.
-- 連接本地 AI 時，仍會優先搜尋並排在第一位顯示官方教學頻道 @ranai-korea 的內容。 / With local AI connected, @ranai-korea channel posts are still found and ranked first.
-- 本地 AI 能讀懂頻道貼文中的安裝方法（包括 Node / npm 專案）。 / Local AI now understands install methods in channel posts, including Node / npm projects.
-- 本地 AI 設定有誤或模型回應失敗時，不再中斷搜尋或分析。 / Invalid local AI settings or model failures no longer stop search or analysis.
-- 分析速度大幅提升。 / Much faster analysis.
+- 本地 AI 分析有明確輪數與時間上限；找不到可靠安裝步驟、來源不可信或輸出截斷時會停止並要求確認，不會無限循環。
+- 進度會顯示目前分析的來源與已使用模型輪數。
+- GitHub 與 Hugging Face 優先讀取原始 Markdown，並保留文件中的原樣命令。
+- 支援驗證後的第一方 YouTube 頻道貼文安裝方法；其他來源仍需使用可驗證的程式碼區塊命令。
+- 改善 Node / npm 專案與頻道貼文安裝說明的提取。
+- Local AI 回應失敗或設定不正確時，會回退至確定性流程，不會中斷搜尋。
+- Agent 發行包現在只包含執行所需檔案，不再混入原始碼與測試。
+
+- Local-AI analysis now has explicit call and time limits. It stops for review instead of looping when sources are untrusted, steps are missing, or output is truncated.
+- Progress shows the source currently being analysed and the model-call budget used.
+- GitHub and Hugging Face documentation now prefers original Markdown and preserves documented commands verbatim.
+- Verified first-party YouTube channel posts can provide installation methods; other sources still require verifiable command evidence.
+- Improved extraction for Node / npm projects and channel-post installation instructions.
+- Invalid Local-AI settings or model failures fall back to the deterministic path rather than stopping research.
+- The Agent release package now contains runtime files only, without bundled source code or tests.
 
 ## About / 產品介紹
 
@@ -44,17 +54,18 @@ The Agent package is intended for MCP and compatible AI clients. Most Windows us
   核對官方與原始發佈來源
 - Generate reviewable installation plans  
   生成可逐步檢查的安裝計畫
-- Run supported installation steps only after user approval  
-  只有在用戶確認後才執行支援的安裝步驟
-- Identify missing information and manual steps  
-  標明缺失資訊及需要人工完成的步驟
+- Stop safely and request confirmation when evidence is insufficient  
+  資訊不足、來源不可信或有風險時安全停止並要求確認
+- Optional MCP Agent with explicit installation opt-in  
+  可選 MCP Agent；安裝能力必須明確啟用與確認
 
 ## Release files / 發行文件
 
-- [Windows Desktop / Windows 桌面版](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.19-win64.zip)
-- [Agent / 代理程式](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-Agent-0.1.19-agent.1.zip)
+- [Windows Desktop / Windows 桌面版](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.22-Windows-x64.zip)
+- [Agent / 代理程式](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-Agent-0.1.22-agent.1-Windows-x64.zip)
+- [SHA-256 checksums / SHA-256 校驗](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/SHA256SUMS.txt)
 - [Open the latest release / 查看最新發行版](https://github.com/ranrachel008/local-ai-companion/releases/latest)
 
-Desktop EXE SHA256: `9f850c1646720bb192a6085ed665adf7544820852227d5e755428524086261d4`
+Windows Desktop ZIP SHA-256: `dc733ce264c5bf57b72ea755b4dd5e46daab94e9ba0a6f67f9c27e002e1d39ca`
 
-Agent ZIP SHA256: `20f1861623b68e0e8ead4a2346c6450610e60e86e6947ff26c1f45f83fa144e3`
+Agent ZIP SHA-256: `9b15622f03296102ca3e1afcf8af55d761bdc7afede96ef49fc0eade24770230`
