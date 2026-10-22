@@ -8,9 +8,9 @@ Find proven local AI tools, verify official sources, and turn installation instr
 
 ### Windows Desktop / Windows 桌面版
 
-[⬇ Download Local AI Companion for Windows](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-0.1.22-Windows-x64.zip)
+[⬇ Download Local AI Companion for Windows](https://github.com/ranrachel008/local-ai-companion/releases/download/v0.1.23/Local-AI-Companion-0.1.23-Windows-x64.zip)
 
-下载 ZIP 后，选择“全部解压缩”，再双击 `Local-AI-Companion-0.1.22.exe`。
+下载 ZIP 后，选择“全部解压缩”，再双击 `Local-AI-Companion-0.1.23.exe`。
 
 Download the ZIP, extract all files, then double-click `Local-AI-Companion-0.1.22.exe`.
 
