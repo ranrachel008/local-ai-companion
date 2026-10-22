@@ -12,11 +12,11 @@ Find proven local AI tools, verify official sources, and turn installation instr
 
 下载 ZIP 后，选择“全部解压缩”，再双击 `Local-AI-Companion-0.1.23.exe`。
 
-Download the ZIP, extract all files, then double-click `Local-AI-Companion-0.1.22.exe`.
+Download the ZIP, extract all files, then double-click `Local-AI-Companion-0.1.23.exe`.
 
 ### Agent / MCP 代理程式
 
-[⬇ Download Local AI Companion Agent](https://github.com/ranrachel008/local-ai-companion/releases/latest/download/Local-AI-Companion-Agent-0.1.22-agent.1-flat-fixed.zip)
+[⬇ Download Local AI Companion Agent](https://github.com/ranrachel008/local-ai-companion/releases/download/v0.1.23/Local-AI-Companion-Agent-0.1.23-agent.1-Windows-x64.zip)
 
 Agent 供 MCP 或兼容的 AI 客户端使用，不是普通桌面用户必需的组件。一般 Windows 用户请下载上面的桌面版。Agent 需要 Microsoft Visual C++ x64 Redistributable。
 
